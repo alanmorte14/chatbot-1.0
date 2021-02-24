@@ -2,8 +2,8 @@ import os
 
 def start():
     # Apresentar o Chatbot
-
     print("Oi, eu sou seu chatbot ,tenho algumas perguntas pré programadas, que posso lhe respoder! ")
+    
     # Pedir o nome
     nome = input("Digite seu nome: ")
 
@@ -15,7 +15,6 @@ def start():
         resposta = input(f"O que você quer saber hoje?{os.linesep} [1] - Como é Estudar no IFAL? {os.linesep} [2] - Qual curso você faz? {os.linesep} [3] - já que você cursa informatica tem como voce formatar o meu computador?{os.linesep} [4] - Oque você aprende no seu curso?{os.linesep} ")
    
      # PROCESSAR a resposta enviada
-
         processar_resposta(resposta,nome)
 
 def processar_resposta(resposta,nome):
